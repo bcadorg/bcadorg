@@ -1,0 +1,155 @@
+ html{
+     scroll-behavior: smooth;
+ }
+ 
+ body{
+    background: rgba(95, 102, 100, 0.705);
+    font-family: 'Poppins';
+    font-size: large;
+    line-height: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+   
+}
+
+a {
+    color: rgb(149, 222, 240);
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgb(202, 62, 179);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    background: white;
+    padding: 1rem 1rem;
+    
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+ 
+.navbar-toggler {
+    background: peru;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1 rem;
+    font-size: 1.4rem;
+    position: relative;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+   border-bottom: 4px solid orange;
+   color: rgb(105, 27, 179);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:active {
+    color: rgb(255, 0, 157);
+}
+
+.heading {
+    font-size: calc(1em + 1vw);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: rgb(32, 32, 36);
+    background-color: rgb(238, 203, 158);
+    text-transform: uppercase;
+   
+}
+
+/* start : footer*/
+.full-footer {
+    background-color: rgb(108, 100, 218);
+   
+}
+.top-footer p{
+color: white;
+}
+.bottom-footer {
+    background-color: rgb(184, 154, 240);
+}
+.bottom-footer P{
+    color: rgb(20, 19, 19);
+}
+/* end : footer*/
+
+/* page title start*/
+.section-title {
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    background: #94cabf;
+    color: white;
+    font-size: 30px;
+}
+/* page title end*/
+
+.container-fluid {
+    background-color: rgb(223, 209, 209);
+}
+
+.paragraph {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 1rem;
+    line-height: 30px;
+    text-align: justify;
+    font-style: oblique;
+    line-height: 1.5;
+}
+.details {
+    text-align: center;
+    text-align: justify;
+    font-size: 23px;
+    padding: 1rem;
+    line-height: 1.5;
+}
+.row {
+    column-gap: 80px;
+   background-color: rgba(63, 165, 151, 0.658);
+   
+}
+
+.backtotop {
+    position: absolute;
+    right: 0;
+    color: brown;
+  }
+  .caption {
+    text-align: center;
+    font-size: 25px;
+    padding: .5rem;
+    color: blue;
+  }
+  /* in about page*/
+  .para{
+     line-height: 2;
+     text-align: justify;
+  }
+   /* program list and services*/
+  .programlist{
+    list-style: circle;
+    font-size: 25px;
+    padding: 30px;
+    line-height: 30px;
+  }
+  .bibleverse{
+      font-size: 25px;
+      color: blue;
+  }
