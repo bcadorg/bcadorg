@@ -44,6 +44,7 @@ ul {
     border: none;
     padding: 10px 6px;
     outline: none;
+    margin-left: 90% !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
