@@ -157,3 +157,10 @@ color: white;
 .togglebar-label{
       font-size: 15px;
   }
+ .downloadform{
+      padding: 2%;
+      font-style: italic;
+  }
+  .formstyle{
+      color: rgb(90, 7, 42);
+  }
